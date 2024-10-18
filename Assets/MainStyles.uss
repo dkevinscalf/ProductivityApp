@@ -1,0 +1,107 @@
+.BGTile {
+    background-image: none;
+    -unity-background-scale-mode: scale-to-fit;
+    flex-grow: 1;
+}
+
+.ChakraIcon {
+    -unity-background-scale-mode: scale-to-fit;
+    background-color: rgba(0, 0, 0, 0);
+    flex-grow: 1;
+}
+
+.BGTile.Cat1 {
+    background-color: rgba(166, 0, 136, 0.5);
+}
+
+.ChakraIcon.Cat1 {
+    background-image: url("project://database/Assets/Art/Symbols.png?fileID=26073894&guid=242535e51c5c4fc4388abcf4e06d3900&type=3#Symbols_0");
+    background-color: none;
+}
+
+.BGTile.Cat2 {
+    background-color: rgba(24, 0, 166, 0.5);
+}
+
+.ChakraIcon.Cat2 {
+    background-image: url("project://database/Assets/Art/Symbols.png?fileID=1386467331&guid=242535e51c5c4fc4388abcf4e06d3900&type=3#Symbols_1");
+}
+
+.BGTile.Cat3 {
+    background-color: rgba(0, 166, 161, 0.5);
+}
+
+.ChakraIcon.Cat3 {
+    background-image: url("project://database/Assets/Art/Symbols.png?fileID=307580217&guid=242535e51c5c4fc4388abcf4e06d3900&type=3#Symbols_2");
+}
+
+.BGTile.Cat4 {
+    background-color: rgba(0, 166, 34, 0.5);
+}
+
+.ChakraIcon.Cat4 {
+    background-image: url("project://database/Assets/Art/Symbols.png?fileID=-432389001&guid=242535e51c5c4fc4388abcf4e06d3900&type=3#Symbols_3");
+}
+
+.BGTile.Cat5 {
+    background-color: rgba(166, 161, 0, 0.5);
+}
+
+.ChakraIcon.Cat5 {
+    background-image: url("project://database/Assets/Art/Symbols.png?fileID=-2004949793&guid=242535e51c5c4fc4388abcf4e06d3900&type=3#Symbols_4");
+}
+
+.BGTile.Cat6 {
+    background-color: rgba(166, 80, 0, 0.5);
+}
+
+.ChakraIcon.Cat6 {
+    background-image: url("project://database/Assets/Art/Symbols.png?fileID=-247931706&guid=242535e51c5c4fc4388abcf4e06d3900&type=3#Symbols_5");
+}
+
+.BGTile.Cat7 {
+    background-color: rgba(166, 0, 8, 0.5);
+}
+
+.ChakraIcon.Cat7 {
+    background-image: url("project://database/Assets/Art/Symbols.png?fileID=-320849454&guid=242535e51c5c4fc4388abcf4e06d3900&type=3#Symbols_6");
+}
+
+Label {
+    color: rgb(255, 255, 255);
+    -unity-font: url("project://database/Assets/Art/Akira%20Expanded%20Demo.otf?fileID=12800000&guid=8f6956d2979bf1a45a8f653a002fb17a&type=3#Akira Expanded Demo");
+    font-size: 18px;
+    -unity-font-definition: url("project://database/Assets/Art/Akira%20Expanded%20Demo%20SDF.asset?fileID=11400000&guid=b9071e49963256d438c626ebb65a12ea&type=2#Akira Expanded Demo SDF");
+    -unity-text-align: upper-center;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: rgb(0, 0, 0);
+}
+
+Toggle {
+    flex-direction: row-reverse;
+}
+
+Button {
+    color: rgb(255, 255, 255);
+    -unity-font: url("project://database/Assets/Art/Akira%20Expanded%20Demo.otf?fileID=12800000&guid=8f6956d2979bf1a45a8f653a002fb17a&type=3#Akira Expanded Demo");
+    -unity-font-definition: url("project://database/Assets/Art/Akira%20Expanded%20Demo%20SDF.asset?fileID=11400000&guid=b9071e49963256d438c626ebb65a12ea&type=2#Akira Expanded Demo SDF");
+    background-color: rgba(0, 0, 0, 0);
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-bottom-width: 5px;
+    border-left-width: 5px;
+}
+
+.Log {
+    -unity-text-align: upper-left;
+    color: rgb(0, 255, 235);
+}
+
+.Error {
+    -unity-text-align: upper-left;
+    color: rgb(255, 136, 141);
+}

@@ -1,0 +1,389 @@
+﻿{
+  "Tasktivities": [
+    {
+      "Name": "Mountain Bike Ride",
+      "Category": "Fitness",
+      "CategoryClass": "Cat6",
+      "Points": 3,
+      "Description": "Mountain Bike Ride (5 miles)"
+    },
+    {
+      "Name": "Couch to 5k Session",
+      "Category": "Fitness",
+      "CategoryClass": "Cat6",
+      "Points": 3,
+      "Description": "Couch to 5k Session Run (30 minutes)"
+    },
+    {
+      "Name": "Body Weight Routine",
+      "Category": "Fitness",
+      "CategoryClass": "Cat6",
+      "Points": 4,
+      "Description": "Body Weight Routine (9 sets of 3)"
+    },
+    {
+      "Name": "Pickleball",
+      "Category": "Fitness",
+      "CategoryClass": "Cat6",
+      "Points": 2,
+      "Description": "Pickleball (casual with friends)"
+    },
+    {
+      "Name": "Tennis",
+      "Category": "Fitness",
+      "CategoryClass": "Cat6",
+      "Points": 2,
+      "Description": "Tennis (casual workout with Dad)"
+    },
+    {
+      "Name": "Prepped Overnight Oats",
+      "Category": "Nutrition",
+      "CategoryClass": "Cat5",
+      "Points": 1,
+      "Description": "Prepared overnight oats for breakfast."
+    },
+    {
+      "Name": "Logged all meals",
+      "Category": "Nutrition",
+      "CategoryClass": "Cat5",
+      "Points": 2,
+      "Description": "Logged all meals for the day."
+    },
+    {
+      "Name": "Weighed in",
+      "Category": "Nutrition",
+      "CategoryClass": "Cat5",
+      "Points": 1,
+      "Description": "Weighed in today to track weight."
+    },
+    {
+      "Name": "Cooked a known recipe",
+      "Category": "Nutrition",
+      "CategoryClass": "Cat5",
+      "Points": 3,
+      "Description": "Cooked a known recipe for dinner for two."
+    },
+    {
+      "Name": "Cooked a new recipe",
+      "Category": "Nutrition",
+      "CategoryClass": "Cat5",
+      "Points": 4,
+      "Description": "Tried cooking a new recipe for dinner for two."
+    },
+    {
+      "Name": "Meal Prep",
+      "Category": "Nutrition",
+      "CategoryClass": "Cat5",
+      "Points": 5,
+      "Description": "Prepared 6-8 lunches to freeze."
+    },
+    {
+      "Name": "Stayed on Diet",
+      "Category": "Nutrition",
+      "CategoryClass": "Cat5",
+      "Points": 3,
+      "Description": "Stayed on diet for the day."
+    },
+    {
+      "Name": "Made a new proof of concept",
+      "Category": "Knowledge",
+      "CategoryClass": "Cat2",
+      "Points": 5,
+      "Description": "Created a new proof of concept of an unfamiliar technology."
+    },
+    {
+      "Name": "Coded for at least 30 minutes",
+      "Category": "Knowledge",
+      "CategoryClass": "Cat2",
+      "Points": 2,
+      "Description": "Coded for a minimum of 30 minutes today."
+    },
+    {
+      "Name": "Watched a YouTube video",
+      "Category": "Knowledge",
+      "CategoryClass": "Cat2",
+      "Points": 1,
+      "Description": "Watched a video or read an article on software development."
+    },
+    {
+      "Name": "Engaged with Andrew",
+      "Category": "Knowledge",
+      "CategoryClass": "Cat2",
+      "Points": 2,
+      "Description": "Engaged with Andrew (senior direct report)."
+    },
+    {
+      "Name": "Engaged with Abu",
+      "Category": "Knowledge",
+      "CategoryClass": "Cat2",
+      "Points": 2,
+      "Description": "Engaged with Abu (junior direct report)."
+    },
+    {
+      "Name": "Spent 15 minutes reading",
+      "Category": "Knowledge",
+      "CategoryClass": "Cat2",
+      "Points": 1,
+      "Description": "Spent 15 minutes reading about something new."
+    },
+    {
+      "Name": "Drums free play",
+      "Category": "Music",
+      "CategoryClass": "Cat1",
+      "Points": 1,
+      "Description": "Free play on drums for 10 minutes."
+    },
+    {
+      "Name": "Drums structured practice",
+      "Category": "Music",
+      "CategoryClass": "Cat1",
+      "Points": 2,
+      "Description": "Structured practice on drums for 10 minutes."
+    },
+    {
+      "Name": "Drums learn new song",
+      "Category": "Music",
+      "CategoryClass": "Cat1",
+      "Points": 3,
+      "Description": "Learn a new song on the drums."
+    },
+    {
+      "Name": "Guitar free play",
+      "Category": "Music",
+      "CategoryClass": "Cat1",
+      "Points": 2,
+      "Description": "Free play on guitar for 10 minutes."
+    },
+    {
+      "Name": "Guitar structured practice",
+      "Category": "Music",
+      "CategoryClass": "Cat1",
+      "Points": 3,
+      "Description": "Structured practice on guitar for 10 minutes."
+    },
+    {
+      "Name": "Guitar learn new song",
+      "Category": "Music",
+      "CategoryClass": "Cat1",
+      "Points": 4,
+      "Description": "Learn a new song on the guitar."
+    },
+    {
+      "Name": "Bass free play",
+      "Category": "Music",
+      "CategoryClass": "Cat1",
+      "Points": 1,
+      "Description": "Free play on bass for 10 minutes."
+    },
+    {
+      "Name": "Bass structured practice",
+      "Category": "Music",
+      "CategoryClass": "Cat1",
+      "Points": 2,
+      "Description": "Structured practice on bass for 10 minutes."
+    },
+    {
+      "Name": "Bass learn new song",
+      "Category": "Music",
+      "CategoryClass": "Cat1",
+      "Points": 3,
+      "Description": "Learn a new song on the bass."
+    },
+    {
+      "Name": "Piano free play",
+      "Category": "Music",
+      "CategoryClass": "Cat1",
+      "Points": 1,
+      "Description": "Free play on piano for 10 minutes."
+    },
+    {
+      "Name": "Piano structured practice",
+      "Category": "Music",
+      "CategoryClass": "Cat1",
+      "Points": 2,
+      "Description": "Structured practice on piano for 10 minutes."
+    },
+    {
+      "Name": "Piano learn new song",
+      "Category": "Music",
+      "CategoryClass": "Cat1",
+      "Points": 3,
+      "Description": "Learn a new song on the piano."
+    },
+    {
+      "Name": "Took Eva to play",
+      "Category": "Family",
+      "CategoryClass": "Cat4",
+      "Points": 2,
+      "Description": "Took Eva (daughter) to play with friends."
+    },
+    {
+      "Name": "Did an activity with Eva",
+      "Category": "Family",
+      "CategoryClass": "Cat4",
+      "Points": 3,
+      "Description": "Did an activity with Eva."
+    },
+    {
+      "Name": "Complemented Amy",
+      "Category": "Family",
+      "CategoryClass": "Cat4",
+      "Points": 1,
+      "Description": "Gave a compliment to Amy (wife)."
+    },
+    {
+      "Name": "Bought flowers for Amy",
+      "Category": "Family",
+      "CategoryClass": "Cat4",
+      "Points": 2,
+      "Description": "Bought flowers for Amy."
+    },
+    {
+      "Name": "Bought Diet Coke for Amy",
+      "Category": "Family",
+      "CategoryClass": "Cat4",
+      "Points": 1,
+      "Description": "Bought a Diet Coke for Amy."
+    },
+    {
+      "Name": "Did dishes for Amy",
+      "Category": "Family",
+      "CategoryClass": "Cat4",
+      "Points": 2,
+      "Description": "Did the dishes after cooking for Amy."
+    },
+    {
+      "Name": "Picked up bedroom for Amy",
+      "Category": "Family",
+      "CategoryClass": "Cat4",
+      "Points": 2,
+      "Description": "Cleaned up the bedroom for Amy."
+    },
+    {
+      "Name": "Called Mom or Dad",
+      "Category": "Family",
+      "CategoryClass": "Cat4",
+      "Points": 1,
+      "Description": "Called Mom or Dad."
+    },
+    {
+      "Name": "Visited Mom or Dad",
+      "Category": "Family",
+      "CategoryClass": "Cat4",
+      "Points": 2,
+      "Description": "Visited Mom or Dad."
+    },
+    {
+      "Name": "Complimented friend",
+      "Category": "Family",
+      "CategoryClass": "Cat4",
+      "Points": 1,
+      "Description": "Gave a compliment to a friend."
+    },
+    {
+      "Name": "Played video games with friends",
+      "Category": "Family",
+      "CategoryClass": "Cat4",
+      "Points": 1,
+      "Description": "Played video games with friends."
+    },
+    {
+      "Name": "Had deep conversation with friend",
+      "Category": "Family",
+      "CategoryClass": "Cat4",
+      "Points": 3,
+      "Description": "Had a deep conversation with a friend."
+    },
+    {
+      "Name": "Did activity with friend",
+      "Category": "Family",
+      "CategoryClass": "Cat4",
+      "Points": 4,
+      "Description": "Did an activity with a friend."
+    },
+    {
+      "Name": "Categorized Today’s Expenses",
+      "Category": "Finances",
+      "CategoryClass": "Cat3",
+      "Points": 1,
+      "Description": "Categorized today's expenses."
+    },
+    {
+      "Name": "Did this month’s budget",
+      "Category": "Finances",
+      "CategoryClass": "Cat3",
+      "Points": 5,
+      "Description": "Completed this month’s budget."
+    },
+    {
+      "Name": "Ate all 3 meals at home",
+      "Category": "Finances",
+      "CategoryClass": "Cat3",
+      "Points": 2,
+      "Description": "Ate all three meals at home."
+    },
+    {
+      "Name": "Completed Household Task (minor)",
+      "Category": "Maintenance",
+      "CategoryClass": "Cat7",
+      "Points": 1,
+      "Description": "Completed a minor household task."
+    },
+    {
+      "Name": "Completed Household Task (mid)",
+      "Category": "Maintenance",
+      "CategoryClass": "Cat7",
+      "Points": 2,
+      "Description": "Completed a mid-level household task."
+    },
+    {
+      "Name": "Completed Household Task (major)",
+      "Category": "Maintenance",
+      "CategoryClass": "Cat7",
+      "Points": 3,
+      "Description": "Completed a major household task."
+    },
+    {
+      "Name": "Cleaned car",
+      "Category": "Maintenance",
+      "CategoryClass": "Cat7",
+      "Points": 2,
+      "Description": "Cleaned the car inside and out."
+    },
+    {
+      "Name": "Oil Change",
+      "Category": "Maintenance",
+      "CategoryClass": "Cat7",
+      "Points": 3,
+      "Description": "Performed an oil change on the car."
+    },
+    {
+      "Name": "Changed Air Filter",
+      "Category": "Maintenance",
+      "CategoryClass": "Cat7",
+      "Points": 2,
+      "Description": "Changed the air filter in the car."
+    },
+    {
+      "Name": "Washed Windows",
+      "Category": "Maintenance",
+      "CategoryClass": "Cat7",
+      "Points": 1,
+      "Description": "Washed the car windows."
+    },
+    {
+      "Name": "Did Yard Work",
+      "Category": "Maintenance",
+      "CategoryClass": "Cat7",
+      "Points": 2,
+      "Description": "Did yard work for at least 30 minutes."
+    },
+    {
+      "Name": "Made a List of Home Projects",
+      "Category": "Maintenance",
+      "CategoryClass": "Cat7",
+      "Points": 3,
+      "Description": "Made a list of home improvement projects."
+    }
+  ]
+}

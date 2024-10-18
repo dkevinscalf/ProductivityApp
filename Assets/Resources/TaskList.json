@@ -1,0 +1,46 @@
+﻿{
+  "Tasktivities": [
+    {
+      "Name": "Sample Category 1 Task",
+      "Category": "Category 1",
+      "CategoryClass": "Cat1",
+      "Points": 1
+    },
+    {
+      "Name": "Sample Category 2 Task",
+      "Category": "Category 2",
+      "CategoryClass": "Cat2",
+      "Points": 1
+    },
+    {
+      "Name": "Sample Category 3 Task",
+      "Category": "Category 3",
+      "CategoryClass": "Cat3",
+      "Points": 1
+    },
+    {
+      "Name": "Sample Category 4 Task",
+      "Category": "Category 4",
+      "CategoryClass": "Cat4",
+      "Points": 1
+    },
+    {
+      "Name": "Sample Category 5 Task",
+      "Category": "Category 5",
+      "CategoryClass": "Cat5",
+      "Points": 1
+    },
+    {
+      "Name": "Sample Category 6 Task",
+      "Category": "Category 6",
+      "CategoryClass": "Cat6",
+      "Points": 1
+    },
+    {
+      "Name": "Sample Category 7 Task",
+      "Category": "Category 7",
+      "CategoryClass": "Cat7",
+      "Points": 1
+    }
+  ]
+}
