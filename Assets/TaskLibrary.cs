@@ -112,11 +112,14 @@ public class UserProfile
 
     public TaskLibraryObject TasktivityLibrary;
 
-    public static JournalEntry CurrentDay;
+    public static UserProfile Instance;
+
+    public JournalEntry CurrentDay;
 
     public static void SetTask(string Name, bool complete)
     {
-        var task = CurrentDay.Tasks.FirstOrDefault(o => o.Name == Name);
+        Instance.LoadCurrentDay();
+        var task = Instance.CurrentDay.Tasks.FirstOrDefault(o => o.Name == Name);
         if (task != null)
             task.Complete = complete;
         TaskLibrary.Instance.SaveUserProfile();
@@ -125,11 +128,13 @@ public class UserProfile
     public UserProfile()
     {
         Entries = new List<JournalEntry>();
+        Instance = this;
     }
 
     internal void LoadCurrentDay()
     {
-        CurrentDay = Entries.FirstOrDefault(o => o.EntryDate == DateTime.Today);
+        if(CurrentDay == null)
+            CurrentDay = Entries.FirstOrDefault(o => o.EntryDate == DateTime.Today);
         if (CurrentDay == null)
         {
             //Logging.Instance.Log("NEW DAY");
@@ -141,9 +146,20 @@ public class UserProfile
             Entries.Add(newDay);
             CurrentDay = newDay;
         }
-        else
+        else if(CurrentDay.Tasks == null || !CurrentDay.Tasks.Any())
         {
-            //Logging.Instance.LogError("NO NEW DAY!!!!");
+            CurrentDay.Tasks = TaskLibrary.Instance.Tasktivities.DeepCopy();
+        }
+        LoadMissingTasks();
+    }
+
+    private void LoadMissingTasks()
+    {
+        foreach(var task in TaskLibrary.Instance.Tasktivities.DeepCopy())
+        {
+            var matchingTask = CurrentDay.Tasks.FirstOrDefault(o => o.Category == task.Category && o.Name == task.Name);
+            if (matchingTask == null)
+                CurrentDay.Tasks.Add(task);
         }
     }
 }

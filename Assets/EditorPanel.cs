@@ -70,6 +70,10 @@ public class EditorPanel : MonoBehaviour
             task.Category = evt.newValue;
         }
 
+        foreach (var task in TaskLibrary.Instance.UserProfile.CurrentDay.Tasks.Where(o => o.CategoryClass == SelectedCategory))
+        {
+            task.Category = evt.newValue;
+        }
         TaskLibrary.Instance.SaveUserProfile();
     }
 
@@ -120,9 +124,13 @@ public class EditorPanel : MonoBehaviour
 
     private void SetTaskName(ChangeEvent<string> evt, Tasktivity task)
     {
-        task.Name = evt.newValue;
         Tasktivity libraryTask = TaskLibrary.Instance.Tasktivities.Find(task);
-        libraryTask.Name = task.Name;
+        var currentDayTask = UserProfile.Instance.CurrentDay.Tasks.FirstOrDefault(o => o.Category == task.Category && o.Name == task.Name);
+        task.Name = evt.newValue;
+        if (currentDayTask != null)
+            currentDayTask.Name = evt.newValue;
+        if(libraryTask != null)
+            libraryTask.Name = evt.newValue;
         TaskLibrary.Instance.SaveUserProfile();
     }
 }

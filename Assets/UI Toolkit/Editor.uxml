@@ -1,9 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<engine:UXML
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:engine="UnityEngine.UIElements"
-    xmlns:editor="UnityEditor.UIElements"
-    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
->
-    
-</engine:UXML>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MainStyles.uss?fileID=7433441132597879392&amp;guid=6ec4663fd050a034095cda746aae2a0c&amp;type=3#MainStyles" />
+    <ui:TextField picking-mode="Ignore" label="Name:" value="filler text" name="CategoryName" />
+    <ui:Label tabindex="-1" text="Tasks" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+    <ui:ScrollView name="TaskContainer" class="BGTile" />
+    <ui:VisualElement name="Buttons" style="flex-grow: 0; flex-direction: row;">
+        <ui:Button text="Back" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BackButton" style="flex-grow: 1;" />
+        <ui:Button text="New+" parse-escape-sequences="true" display-tooltip-when-elided="true" name="NewTask" enable-rich-text="false" style="flex-grow: 1;" />
+    </ui:VisualElement>
+</ui:UXML>

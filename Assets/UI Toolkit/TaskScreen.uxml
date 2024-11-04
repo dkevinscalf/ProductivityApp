@@ -1,8 +1,6 @@
 <ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
     <Style src="project://database/Assets/MainStyles.uss?fileID=7433441132597879392&amp;guid=6ec4663fd050a034095cda746aae2a0c&amp;type=3#MainStyles" />
-    <ui:VisualElement name="TaskContainer" class="BGTile" style="flex-grow: 1;">
-        <ui:Toggle label="Drums 10 minutes" name="TaskToggle" value="true" style="transform-origin: center; white-space: normal;" />
-    </ui:VisualElement>
+    <ui:ScrollView name="TaskContainer" class="BGTile" />
     <ui:VisualElement name="Buttons" style="flex-grow: 0; flex-direction: row;">
         <ui:Button text="Back" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BackButton" style="flex-grow: 1;" />
         <ui:Button text="Edit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="EditButton" style="flex-grow: 1;" />

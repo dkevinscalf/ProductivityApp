@@ -69,7 +69,7 @@ public class DailyTaskList : MonoBehaviour
         var display = new Toggle();
         display.label = task.Name;
         container.Add(display);
-        display.value = UserProfile.CurrentDay.IsTaskComplete(task.Name);
+        display.value = UserProfile.Instance.CurrentDay.IsTaskComplete(task.Name);
         display.RegisterValueChangedCallback(evt =>
         {
             bool isToggled = evt.newValue;  // evt.newValue gives you the current state (true or false)
